@@ -1,3 +1,4 @@
+//estrutura de boas vindas 
 //procedimentos (função)
 function boasvindas(){
     alert('Vamos iniciar nosso programa!')

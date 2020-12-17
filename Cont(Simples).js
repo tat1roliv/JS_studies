@@ -1,4 +1,5 @@
-//contador
+//contador simples *do while*
+
 var cont = 0
 
 //inicio

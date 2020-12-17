@@ -1,4 +1,4 @@
-//operações matematicas basicas (4 operações)
+//operações matematicas basicas
 
 function soma(numeroA,numeroB){
     return numeroA+numeroB
