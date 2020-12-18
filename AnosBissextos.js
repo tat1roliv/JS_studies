@@ -1,5 +1,22 @@
 //anos bissextos
-//informa a sequencia de anos bissextos ate o ano informado
+/*
+//este codigo verifica apenas um valor
+
+var ano = parseInt(prompt('Digite o ano desejado: '))
+var regra1 = (ano%400==0)
+var regra2 = (ano%4==0) && (ano!=100)
+if (isNaN(ano)){
+  alert('O valor informado não é válido')
+}else{
+  if (regra1 || regra2){
+    alert('O ano '+ ano + ' é bissexto')
+  }else{
+    alert('o ano ' + ano + ' não é bissexto')
+  }
+}
+*/
+
+//este informa a sequencia de anos bissextos ate o ano informado
 console.log('\nLISTA DE ANOS BISSEXTOS' )
 console.log('--------------------------------------' )
 //variaveis
@@ -9,7 +26,6 @@ var condicao1
 var condicao2
 
 //inicio
-
 console.log('\nLISTA DE ANOS BISSEXTOS ATÉ O ANO ' + ano + ' INFORMADO' )
 console.log('--------------------------------------' )
 if(ano > 0){
