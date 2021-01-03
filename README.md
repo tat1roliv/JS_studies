@@ -1,2 +1,2 @@
 # JS_studies
- Estudos inicais em JS
+Initial studies in javascript (Imperative programming)
